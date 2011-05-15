@@ -1,0 +1,44 @@
+{
+   "abstract" : "Mapping Perl releases on CPAN to the location of the tarballs",
+   "author" : [
+      "Chris Williams <chris@bingosnet.co.uk>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200006, CPAN::Meta::Converter version 2.110930",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "CPAN-Perl-Releases",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.47"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "v5.6.0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://github.com/bingos/cpan-perl-releases",
+      "repository" : {
+         "type" : "git",
+         "url" : "http://github.com/bingos/cpan-perl-releases",
+         "web" : "http://github.com/bingos/cpan-perl-releases"
+      }
+   },
+   "version" : "0.02"
+}
+

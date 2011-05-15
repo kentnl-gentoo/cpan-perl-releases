@@ -1,0 +1,87 @@
+NAME
+    CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of
+    the tarballs
+
+VERSION
+    version 0.02
+
+SYNOPSIS
+      use CPAN::Perl::Releases qw[perl_tarballs];
+
+      my $perl = '5.14.0';
+
+      my $hashref = perl_tarballs( $perl );
+
+      print "Location: ", $_, "\n" for values %{ $hashref };
+
+DESCRIPTION
+    CPAN::Perl::Releases is a module that contains the mappings of all
+    "perl" releases that have been uploaded to CPAN to the "authors/id/"
+    path that the tarballs reside in.
+
+    This is static data, but newer versions of this module will be made
+    available as new releases of "perl" are uploaded to CPAN, or until a
+    mechanism to programmatically determine the relevant data is decided
+    upon, at which point this module will be refactored to obtain the data
+    via that mechanism.
+
+RANT
+    Strangely, there is not a mechanism to be able determine
+    programmatically the exact CPAN path of a "perl" tarball.
+
+    Okay, I lied, there are two. Kinda.
+
+    When I was trying to find a way whilst writing smokebrew, I looked at
+    how perlbrew did it. perlbrew uses what I will call the
+    "search.cpan.org" method. It queries using HTTP a "perl" distribution
+    link and then uses regex to "parse" the link to the tarball from the
+    returned HTML.
+
+    I did not like the idea of this. It sounds flawed to my mind. Reliant on
+    the HTML not changing in strange ways and on Internet access as well. (
+    This is not a dig at either perlbrew or "search.cpan.org" incidently,
+    just at the fact that somebody has to resort to this kind of mechanism
+    ).
+
+    The other way that I found was that symlinks were maintained in the
+    "src/5.0/" directory of CPAN that provided all the versions of "perl"
+    uploaded to CPAN. These were constructed by a script run on the master
+    CPAN site. One could just request the relevant tarball from this
+    directory and get the right tarball.
+
+    This worked great until the master CPAN site was migrated and the script
+    was not.
+
+    And now to this module.
+
+FUNCTIONS
+    "perl_tarballs"
+        Takes one parameter, a "perl" version to search for. Returns an
+        hashref on success or "undef" otherwise.
+
+        The returned hashref will have a key/value for each type of tarball.
+        A key of "tar.gz" indicates the location of a gzipped tar file and
+        "tar.bz2" of a bzip2'd tar file. The values will be the relative
+        path under "authors/id/" on CPAN where the indicated tarball will be
+        located.
+
+          perl_tarballs( '5.14.0' );
+
+          Returns a hashref like:
+
+          {
+            "tar.bz2" => "J/JE/JESSE/perl-5.14.0.tar.bz2",
+            "tar.gz" => "J/JE/JESSE/perl-5.14.0.tar.gz"
+          }
+
+        Not all "perl" releases had "tar.bz2", but only a "tar.gz".
+
+AUTHOR
+    Chris Williams <chris@bingosnet.co.uk>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2011 by Chris Williams.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

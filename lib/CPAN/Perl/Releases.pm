@@ -1,4 +1,7 @@
 package CPAN::Perl::Releases;
+BEGIN {
+  $CPAN::Perl::Releases::VERSION = '0.02';
+}
 
 #ABSTRACT: Mapping Perl releases on CPAN to the location of the tarballs
 
@@ -328,7 +331,17 @@ sub perl_tarballs {
 
 q|Acme::Why::Do::I::Have::To::Parse::HTML::From::Search::CPAN::Org::To::Discover::Programmatically::Perl::Release::Tarball::Locations::MMMMkay|;
 
+
+__END__
 =pod
+
+=head1 NAME
+
+CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of the tarballs
+
+=head1 VERSION
+
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -339,6 +352,15 @@ q|Acme::Why::Do::I::Have::To::Parse::HTML::From::Search::CPAN::Org::To::Discover
   my $hashref = perl_tarballs( $perl );
 
   print "Location: ", $_, "\n" for values %{ $hashref };
+
+=head1 DESCRIPTION
+
+CPAN::Perl::Releases is a module that contains the mappings of all C<perl> releases that have been uploaded to CPAN to the
+C<authors/id/> path that the tarballs reside in.
+
+This is static data, but newer versions of this module will be made available as new releases of C<perl> are uploaded to CPAN,
+or until a mechanism to programmatically determine the relevant data is decided upon, at which point this module will be
+refactored to obtain the data via that mechanism.
 
 =head1 RANT
 
@@ -361,15 +383,6 @@ the relevant tarball from this directory and get the right tarball.
 This worked great until the master CPAN site was migrated and the script was not.
 
 And now to this module.
-
-=head1 DESCRIPTION
-
-CPAN::Perl::Releases is a module that contains the mappings of all C<perl> releases that have been uploaded to CPAN to the
-C<authors/id/> path that the tarballs reside in.
-
-This is static data, but newer versions of this module will be made available as new releases of C<perl> are uploaded to CPAN,
-or until a mechanism to programmatically determine the relevant data is decided upon, at which point this module will be
-refactored to obtain the data via that mechanism.
 
 =head1 FUNCTIONS
 
@@ -396,4 +409,16 @@ Not all C<perl> releases had C<tar.bz2>, but only a C<tar.gz>.
 
 =back
 
+=head1 AUTHOR
+
+Chris Williams <chris@bingosnet.co.uk>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2011 by Chris Williams.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
 =cut
+
