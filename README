@@ -3,7 +3,7 @@ NAME
     the tarballs
 
 VERSION
-    version 0.02
+    version 0.04
 
 SYNOPSIS
       use CPAN::Perl::Releases qw[perl_tarballs];
@@ -52,7 +52,8 @@ RANT
     This worked great until the master CPAN site was migrated and the script
     was not.
 
-    And now to this module.
+    Since I first wrote this "rant" the master CPAN site now has the script,
+    thanks to the sterling efforts of Ask Bjorn Hansen.
 
 FUNCTIONS
     "perl_tarballs"

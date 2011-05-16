@@ -1,6 +1,6 @@
 package CPAN::Perl::Releases;
 BEGIN {
-  $CPAN::Perl::Releases::VERSION = '0.02';
+  $CPAN::Perl::Releases::VERSION = '0.04';
 }
 
 #ABSTRACT: Mapping Perl releases on CPAN to the location of the tarballs
@@ -341,7 +341,7 @@ CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of the tarb
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -382,7 +382,7 @@ the relevant tarball from this directory and get the right tarball.
 
 This worked great until the master CPAN site was migrated and the script was not.
 
-And now to this module.
+Since I first wrote this C<rant> the master CPAN site now has the script, thanks to the sterling efforts of Ask Bjorn Hansen.
 
 =head1 FUNCTIONS
 
