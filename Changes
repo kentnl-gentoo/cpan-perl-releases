@@ -1,4 +1,20 @@
 ==============================
+2011-05-17 10:27:38 +0100 0.06
+==============================
+
+  commit 11c442643130ca59c71856054c9b6e9fd9902b0d
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Tue May 17 10:27:38 2011 +0100
+  
+    Fix pod errors.
+
+  commit 7a0f043763f0d9a34e4914338dbef9f32fc7900d
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Tue May 17 10:24:20 2011 +0100
+  
+    Remove big parts of the docs as I am an idiot. 
+
+==============================
 2011-05-16 12:54:32 +0100 0.04
 ==============================
 

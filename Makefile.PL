@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'CPAN::Perl::Releases',
   'PREREQ_PM' => {},
-  'VERSION' => '0.04',
+  'VERSION' => '0.06',
   'test' => {
     'TESTS' => 't/*.t'
   }
