@@ -1,6 +1,6 @@
 package CPAN::Perl::Releases;
 BEGIN {
-  $CPAN::Perl::Releases::VERSION = '0.06';
+  $CPAN::Perl::Releases::VERSION = '0.08';
 }
 
 #ABSTRACT: Mapping Perl releases on CPAN to the location of the tarballs
@@ -15,7 +15,7 @@ use vars qw[@ISA @EXPORT_OK];
 # Data gathered from using findlinks.pl script in this dists tools/
 # directory, run over the src/5.0 of a local CPAN mirror.
 
-my $data =
+our $data =
 {
   "5.003_07" => {
     "tar.gz" => "A/AN/ANDYD/perl5.003_07.tar.gz"
@@ -341,7 +341,7 @@ CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of the tarb
 
 =head1 VERSION
 
-version 0.06
+version 0.08
 
 =head1 SYNOPSIS
 
