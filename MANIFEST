@@ -11,5 +11,8 @@ t/00-compile.t
 t/01-releases.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
+tools/countit.pl
+tools/findhttp.pl
 tools/findlinks.pl
+tools/mashup.pl
 tools/perls.data

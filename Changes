@@ -1,4 +1,14 @@
 ==============================
+2011-06-08 14:41:47 +0100 0.10
+==============================
+
+  commit 15ad911305b78dac13a109ba07e39db3d5da56db
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Wed Jun 8 14:41:47 2011 +0100
+  
+    Added data for perl-5.12.4-RC1 and few more scripts in tools/ 
+
+==============================
 2011-05-23 15:59:29 +0100 0.08
 ==============================
 
