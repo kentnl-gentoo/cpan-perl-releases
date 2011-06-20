@@ -1,6 +1,6 @@
 package CPAN::Perl::Releases;
 BEGIN {
-  $CPAN::Perl::Releases::VERSION = '0.20';
+  $CPAN::Perl::Releases::VERSION = '0.22';
 }
 
 #ABSTRACT: Mapping Perl releases on CPAN to the location of the tarballs
@@ -202,6 +202,10 @@ our $data =
     "tar.bz2" => "J/JE/JESSE/perl-5.14.1.tar.bz2",
     "tar.gz" => "J/JE/JESSE/perl-5.14.1.tar.gz",
   },
+  "5.15.0" => {
+    "tar.bz2" => "D/DA/DAGOLDEN/perl-5.15.0.tar.bz2",
+    "tar.gz" => "D/DA/DAGOLDEN/perl-5.15.0.tar.gz",
+  },
   "5.6.0" => {
     "tar.gz" => "G/GS/GSAR/perl-5.6.0.tar.gz",
   },
@@ -310,7 +314,7 @@ CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of the tarb
 
 =head1 VERSION
 
-version 0.20
+version 0.22
 
 =head1 SYNOPSIS
 
