@@ -1,6 +1,6 @@
 package CPAN::Perl::Releases;
 BEGIN {
-  $CPAN::Perl::Releases::VERSION = '0.24';
+  $CPAN::Perl::Releases::VERSION = '0.26';
 }
 
 #ABSTRACT: Mapping Perl releases on CPAN to the location of the tarballs
@@ -8,6 +8,8 @@ BEGIN {
 use strict;
 use warnings;
 use vars qw[@ISA @EXPORT_OK];
+
+use Exporter;
 
 @ISA       = qw(Exporter);
 @EXPORT_OK = qw(perl_tarballs);
@@ -318,7 +320,7 @@ CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of the tarb
 
 =head1 VERSION
 
-version 0.24
+version 0.26
 
 =head1 SYNOPSIS
 
