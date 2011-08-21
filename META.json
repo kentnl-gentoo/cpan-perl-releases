@@ -4,7 +4,7 @@
       "Chris Williams <chris@bingosnet.co.uk>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930001",
+   "generated_by" : "Dist::Zilla version 4.200018, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -35,10 +35,10 @@
       "homepage" : "https://github.com/bingos/cpan-perl-releases",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/bingos/cpan-perl-releases",
+         "url" : "https://github.com/bingos/cpan-perl-releases.git",
          "web" : "https://github.com/bingos/cpan-perl-releases"
       }
    },
-   "version" : "0.26"
+   "version" : "0.28"
 }
 
