@@ -9,22 +9,22 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Mapping Perl releases on CPAN to the location of the tarballs',
-  'AUTHOR' => 'Chris Williams <chris@bingosnet.co.uk>',
-  'BUILD_REQUIRES' => {
-    'Test::More' => '0.47'
+  "ABSTRACT" => "Mapping Perl releases on CPAN to the location of the tarballs",
+  "AUTHOR" => "Chris Williams <chris\@bingosnet.co.uk>",
+  "BUILD_REQUIRES" => {
+    "Test::More" => "0.47"
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'CPAN-Perl-Releases',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'CPAN::Perl::Releases',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.28',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "DISTNAME" => "CPAN-Perl-Releases",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "CPAN::Perl::Releases",
+  "PREREQ_PM" => {},
+  "VERSION" => "0.30",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
