@@ -18,4 +18,4 @@ requires:
 resources:
   homepage: https://github.com/bingos/cpan-perl-releases
   repository: https://github.com/bingos/cpan-perl-releases.git
-version: 0.62
+version: 0.64
