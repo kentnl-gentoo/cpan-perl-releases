@@ -1,6 +1,6 @@
 package CPAN::Perl::Releases;
 {
-  $CPAN::Perl::Releases::VERSION = '0.68';
+  $CPAN::Perl::Releases::VERSION = '0.70';
 }
 
 #ABSTRACT: Mapping Perl releases on CPAN to the location of the tarballs
@@ -291,6 +291,10 @@ our $data =
     "tar.bz2" => "S/SH/SHAY/perl-5.17.3.tar.bz2",
     "tar.gz" => "S/SH/SHAY/perl-5.17.3.tar.gz",
   },
+  "5.17.4" => {
+    "tar.bz2" => "F/FL/FLORA/perl-5.17.4.tar.bz2",
+    "tar.gz" => "F/FL/FLORA/perl-5.17.4.tar.gz",
+  },
   "5.6.0" => {
     "tar.gz" => "G/GS/GSAR/perl-5.6.0.tar.gz",
   },
@@ -389,8 +393,8 @@ sub perl_tarballs {
 
 q|Acme::Why::Did::I::Not::Read::The::Fecking::Memo|;
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -399,7 +403,7 @@ CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of the tarb
 
 =head1 VERSION
 
-version 0.68
+version 0.70
 
 =head1 SYNOPSIS
 
@@ -461,4 +465,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
