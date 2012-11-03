@@ -1,4 +1,20 @@
 ==============================
+2012-11-03 21:38:52 +0000 0.84
+==============================
+
+  commit 7caec9a17b31ff90fe95be68ccc66171d3442979
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Sat Nov 3 21:38:52 2012 +0000
+  
+    Updated for v5.12.5-RC1
+
+  commit ef41f7c2d79af5657d8a5ddbb1ab44f76197181c
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date:   Sat Nov 3 21:33:08 2012 +0000
+  
+    Updated for v5.16.2 
+
+==============================
 2012-10-27 07:17:18 +0100 0.80
 ==============================
 
