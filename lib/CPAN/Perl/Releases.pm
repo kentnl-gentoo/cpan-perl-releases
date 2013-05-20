@@ -1,6 +1,6 @@
 package CPAN::Perl::Releases;
 {
-  $CPAN::Perl::Releases::VERSION = '1.20';
+  $CPAN::Perl::Releases::VERSION = '1.22';
 }
 
 #ABSTRACT: Mapping Perl releases on CPAN to the location of the tarballs
@@ -507,7 +507,7 @@ CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of the tarb
 
 =head1 VERSION
 
-version 1.20
+version 1.22
 
 =head1 SYNOPSIS
 
