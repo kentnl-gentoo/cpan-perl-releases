@@ -1,6 +1,38 @@
 ==================================================
-Changes from 2008-05-21 00:00:00 +0000 to present.
+Changes from 2008-06-22 00:00:00 +0000 to present.
 ==================================================
+
+-----------------------------------------
+version 1.24 at 2013-06-21 07:01:12 +0000
+-----------------------------------------
+
+  Change: 73f1b5bdee2bcf52a9e39f7ae61ca4d003881f22
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2013-06-21 08:01:12 +0000
+
+    Updated for v5.19.1 
+
+  Change: 76c5a70570ee99229c4553717e4368782dad77c7
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2013-05-27 03:05:10 +0000
+
+    Merge pull request #2 from salva/give-more
+
+    add sub 'perl_versions' that returns the list of versions supported
+    by the module 
+
+  Change: 311199c26fcf63d80b39bcacc462e87e0b593aed
+  Author: Salvador <sfandino@yahoo.com>
+  Date : 2013-05-27 11:06:12 +0000
+
+    add tests for perl_versions sub 
+
+  Change: fe9542930febd38718ecaf459c80da36507e9741
+  Author: Salvador <sfandino@yahoo.com>
+  Date : 2013-05-27 10:08:41 +0000
+
+    add perl_versions function returning list of perl versions known to
+    the module 
 
 -----------------------------------------
 version 1.22 at 2013-05-20 13:25:00 +0000

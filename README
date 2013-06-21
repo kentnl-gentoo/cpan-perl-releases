@@ -3,7 +3,7 @@ NAME
     the tarballs
 
 VERSION
-    version 1.22
+    version 1.24
 
 SYNOPSIS
       use CPAN::Perl::Releases qw[perl_tarballs];
@@ -43,6 +43,9 @@ FUNCTIONS
           }
 
         Not all "perl" releases had "tar.bz2", but only a "tar.gz".
+
+    "perl_versions"
+        Returns the list of all the perl versions supported by the module.
 
 SEE ALSO
     <http://www.cpan.org/src/5.0/>

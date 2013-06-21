@@ -1,6 +1,6 @@
 package CPAN::Perl::Releases;
 {
-  $CPAN::Perl::Releases::VERSION = '1.22';
+  $CPAN::Perl::Releases::VERSION = '1.24';
 }
 
 #ABSTRACT: Mapping Perl releases on CPAN to the location of the tarballs
@@ -12,7 +12,7 @@ use vars qw[@ISA @EXPORT_OK];
 use Exporter;
 
 @ISA       = qw(Exporter);
-@EXPORT_OK = qw(perl_tarballs);
+@EXPORT_OK = qw(perl_tarballs perl_versions);
 
 # Data gathered from using findlinks.pl script in this dists tools/
 # directory, run over the src/5.0 of a local CPAN mirror.
@@ -399,6 +399,10 @@ our $data =
     "tar.bz2" => "R/RJ/RJBS/perl-5.19.0.tar.bz2",
     "tar.gz" => "R/RJ/RJBS/perl-5.19.0.tar.gz",
   },
+  "5.19.1" => {
+    "tar.bz2" => "D/DA/DAGOLDEN/perl-5.19.1.tar.bz2",
+    "tar.gz" => "D/DA/DAGOLDEN/perl-5.19.1.tar.gz",
+  },
   "5.6.0" => {
     "tar.gz" => "G/GS/GSAR/perl-5.6.0.tar.gz",
   },
@@ -495,6 +499,10 @@ sub perl_tarballs {
   return { %{ $data->{ $vers } } };
 }
 
+sub perl_versions {
+    return keys %$data;
+}
+
 q|Acme::Why::Did::I::Not::Read::The::Fecking::Memo|;
 
 __END__
@@ -507,7 +515,7 @@ CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of the tarb
 
 =head1 VERSION
 
-version 1.22
+version 1.24
 
 =head1 SYNOPSIS
 
@@ -548,6 +556,10 @@ on CPAN where the indicated tarball will be located.
   }
 
 Not all C<perl> releases had C<tar.bz2>, but only a C<tar.gz>.
+
+=item C<perl_versions>
+
+Returns the list of all the perl versions supported by the module.
 
 =back
 
