@@ -1,6 +1,33 @@
 ==================================================
-Changes from 2008-07-23 00:00:00 +0000 to present.
+Changes from 2008-08-03 00:00:00 +0000 to present.
 ==================================================
+
+-----------------------------------------
+version 1.28 at 2013-08-02 08:08:29 +0000
+-----------------------------------------
+
+  Change: a2f90fa56554aa9705f45f43cab7f10bdca2590d
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2013-08-02 09:08:29 +0000
+
+    Updated for v5.18.1-RC1 
+
+  Change: f5af79a7ef38d302b0b9bf4980f40cdd45efff18
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2013-07-22 04:01:15 +0000
+
+    Merge pull request #3 from dolmen/sort-releases
+
+    tools/findlinks.pl: sort releases in the generated code 
+
+  Change: e92513f78bf92df5c7096e072b6aa382e020a423
+  Author: Olivier Mengué <dolmen@cpan.org>
+  Date : 2013-07-22 11:35:19 +0000
+
+    tools/findlinks: sort releases in the generated code
+
+    No impact on runtime. This is just a cosmetic change to make the
+    Releases.pm source easier to read for humans. 
 
 -----------------------------------------
 version 1.26 at 2013-07-22 08:25:41 +0000
