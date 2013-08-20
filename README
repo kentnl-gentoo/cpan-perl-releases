@@ -3,7 +3,7 @@ NAME
     the tarballs
 
 VERSION
-    version 1.36
+    version 1.38
 
 SYNOPSIS
       use CPAN::Perl::Releases qw[perl_tarballs];
@@ -46,6 +46,9 @@ FUNCTIONS
 
     "perl_versions"
         Returns the list of all the perl versions supported by the module.
+
+    "perl_pumpkins"
+        Returns a sorted list of all PAUSE IDs of Perl pumpkins.
 
 SEE ALSO
     <http://www.cpan.org/src/5.0/>

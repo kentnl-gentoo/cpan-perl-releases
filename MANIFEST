@@ -8,6 +8,7 @@ README
 dist.ini
 lib/CPAN/Perl/Releases.pm
 t/01-releases.t
+t/02-refactor.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
 tools/countit.pl

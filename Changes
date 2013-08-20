@@ -3,6 +3,20 @@ Changes from 2008-08-21 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
+version 1.38 at 2013-08-20 19:42:05 +0000
+-----------------------------------------
+
+  Change: 57e697e318ad043c4c34c2fe06375d14bb545150
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2013-08-20 20:42:05 +0000
+
+    Refactored internals making everything cleaner
+
+    Hope consumers are using the API >:)
+
+    Also added perl_pumpkins() function 
+
+-----------------------------------------
 version 1.36 at 2013-08-20 16:44:46 +0000
 -----------------------------------------
 
