@@ -1,6 +1,30 @@
 ==================================================
-Changes from 2008-08-21 00:00:00 +0000 to present.
+Changes from 2008-08-23 00:00:00 +0000 to present.
 ==================================================
+
+-----------------------------------------
+version 1.40 at 2013-08-22 13:38:26 +0000
+-----------------------------------------
+
+  Change: 72e496e89a79fbc8e188160e3ef910dbc85f57f8
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2013-08-22 14:38:26 +0000
+
+    Tidied up the internal data structure 
+
+  Change: 83d041e15bde46ded1a8f6ae016c1d5302121998
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2013-08-22 14:16:38 +0000
+
+    Create audit tool to validate the tarball links
+
+    Cleaned up links removing some RC links that are no longer valid 
+
+  Change: ed9609515fb76927ddf3e326fad7af303593630b
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2013-08-22 12:24:30 +0000
+
+    Make perl_versions() return the list in ascending order 
 
 -----------------------------------------
 version 1.38 at 2013-08-20 19:42:05 +0000

@@ -3,7 +3,7 @@ NAME
     the tarballs
 
 VERSION
-    version 1.38
+    version 1.40
 
 SYNOPSIS
       use CPAN::Perl::Releases qw[perl_tarballs];
@@ -45,7 +45,9 @@ FUNCTIONS
         Not all "perl" releases had "tar.bz2", but only a "tar.gz".
 
     "perl_versions"
-        Returns the list of all the perl versions supported by the module.
+        Returns the list of all the perl versions supported by the module in
+        ascending order. "TRIAL" and "RC" will be lower than an actual
+        release.
 
     "perl_pumpkins"
         Returns a sorted list of all PAUSE IDs of Perl pumpkins.

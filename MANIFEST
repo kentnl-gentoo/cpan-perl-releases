@@ -11,6 +11,7 @@ t/01-releases.t
 t/02-refactor.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
+tools/auditlinks.pl
 tools/countit.pl
 tools/findhttp.pl
 tools/findlinks.pl
