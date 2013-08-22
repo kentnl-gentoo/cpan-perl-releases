@@ -1,6 +1,6 @@
 package CPAN::Perl::Releases;
 {
-  $CPAN::Perl::Releases::VERSION = '1.40';
+  $CPAN::Perl::Releases::VERSION = '1.42';
 }
 
 #ABSTRACT: Mapping Perl releases on CPAN to the location of the tarballs
@@ -143,7 +143,7 @@ sub perl_tarballs {
   my $path = join '/', substr( $pumpkin, 0, 1 ), substr( $pumpkin, 0, 2 ), $pumpkin;
   my $sep = ( $vers =~ m!^5\.0! ? '' : '-' );
   my $perl = join $sep, 'perl', $vers;
-  my $onlygz = 1 if $vers =~ m!(?^:5.(?:00(?:4(?:_0[12345])?|5(?:_0[1234])?|3_07)|1(?:0.0(?:-RC[12])?|6.0-RC0)|6.(?:[02]|1(?:-TRIAL[123])?)|9.[12345]|7.[0123]|8.[01]))! || $data->{ $vers }->{onlygz};
+  my $onlygz = 1 if $vers =~ m!(?-xism:5.(?:00(?:4(?:_0[12345])?|5(?:_0[1234])?|3_07)|1(?:0.0(?:-RC[12])?|6.0-RC0)|6.(?:[02]|1(?:-TRIAL[123])?)|9.[12345]|7.[0123]|8.[01]))! || $data->{ $vers }->{onlygz};
   my $onlybz2 = 1 if $data->{ $vers }->{onlybz2};
   my $foo = { };
   $foo->{'tar.gz'} = "$path/$perl.tar.gz" unless $onlybz2;
@@ -184,7 +184,7 @@ CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of the tarb
 
 =head1 VERSION
 
-version 1.40
+version 1.42
 
 =head1 SYNOPSIS
 
