@@ -1,6 +1,16 @@
 ==================================================
-Changes from 2008-10-21 00:00:00 +0000 to present.
+Changes from 2008-11-21 00:00:00 +0000 to present.
 ==================================================
+
+-----------------------------------------
+version 1.48 at 2013-11-20 19:24:24 +0000
+-----------------------------------------
+
+  Change: c48b8e1700619a80be81fe32e06e43079ca564f3
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2013-11-20 19:24:24 +0000
+
+    Updated for v5.19.6 
 
 -----------------------------------------
 version 1.46 at 2013-10-20 14:21:15 +0000
@@ -129,7 +139,7 @@ version 1.28 at 2013-08-02 08:08:29 +0000
     tools/findlinks.pl: sort releases in the generated code 
 
   Change: e92513f78bf92df5c7096e072b6aa382e020a423
-  Author: Olivier Mengué <dolmen@cpan.org>
+  Author: Olivier MenguÃ© <dolmen@cpan.org>
   Date : 2013-07-22 11:35:19 +0000
 
     tools/findlinks: sort releases in the generated code
@@ -662,7 +672,7 @@ version 0.26 at 2011-07-23 15:51:24 +0000
     Bumpity version to 0.26 
 
   Change: 3a8ff5d24a4064d24d71b4ace31875831f995bcf
-  Author: Michal Špaček <tupinek@gmail.com>
+  Author: Michal Å paÄek <tupinek@gmail.com>
   Date : 2011-07-23 23:46:49 +0000
 
     Add missing 'use Exporter' code. 
