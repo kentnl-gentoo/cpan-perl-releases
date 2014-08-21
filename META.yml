@@ -3,11 +3,14 @@ abstract: 'Mapping Perl releases on CPAN to the location of the tarballs'
 author:
   - 'Chris Williams <chris@bingosnet.co.uk>'
 build_requires:
+  File::Spec: '0'
+  IO::Handle: '0'
+  IPC::Open3: '0'
   Test::More: '0.47'
 configure_requires:
-  ExtUtils::MakeMaker: '6.30'
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141520'
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,4 +21,4 @@ requires:
 resources:
   homepage: https://github.com/bingos/cpan-perl-releases
   repository: https://github.com/bingos/cpan-perl-releases.git
-version: '1.78'
+version: '1.80'
