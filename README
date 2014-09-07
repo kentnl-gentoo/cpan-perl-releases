@@ -3,7 +3,7 @@ NAME
     the tarballs
 
 VERSION
-    version 1.82
+    version 1.84
 
 SYNOPSIS
       use CPAN::Perl::Releases qw[perl_tarballs];
