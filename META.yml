@@ -21,4 +21,4 @@ requires:
 resources:
   homepage: https://github.com/bingos/cpan-perl-releases
   repository: https://github.com/bingos/cpan-perl-releases.git
-version: '1.86'
+version: '1.88'
