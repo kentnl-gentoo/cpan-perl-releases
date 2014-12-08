@@ -3,7 +3,7 @@ NAME
     the tarballs
 
 VERSION
-    version 1.98
+    version 2.00
 
 SYNOPSIS
       use CPAN::Perl::Releases qw[perl_tarballs];
@@ -43,6 +43,9 @@ FUNCTIONS
           }
 
         Not all "perl" releases had "tar.bz2", but only a "tar.gz".
+
+        Perl tarballs may also be compressed using "xz" and therefore have a
+        "tar.xz" entry.
 
     "perl_versions"
         Returns the list of all the perl versions supported by the module in
