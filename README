@@ -1,3 +1,12 @@
+NAME
+
+    CPAN::Perl::Releases - Mapping Perl releases on CPAN to the location of
+    the tarballs
+
+VERSION
+
+    version 2.30
+
 SYNOPSIS
 
       use CPAN::Perl::Releases qw[perl_tarballs];
@@ -58,4 +67,15 @@ SEE ALSO
     http://www.cpan.org/src/5.0/
 
     http://search.cpan.org/faq.html#Is_there_a_API?
+
+AUTHOR
+
+    Chris Williams <chris@bingosnet.co.uk>
+
+COPYRIGHT AND LICENSE
+
+    This software is copyright (c) 2015 by Chris Williams.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
 
