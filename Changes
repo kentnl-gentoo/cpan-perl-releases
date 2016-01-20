@@ -1,6 +1,28 @@
 ==================================================
-Changes from 2010-12-22 00:00:00 +0000 to present.
+Changes from 2011-01-21 00:00:00 +0000 to present.
 ==================================================
+
+-----------------------------------------
+version 2.56 at 2016-01-20 22:29:45 +0000
+-----------------------------------------
+
+  Change: e49a8ccdcab90da90f431b5852fa77a762fa2737
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2016-01-20 22:29:45 +0000
+
+    Updated with v5.23.7 
+
+  Change: eea8677292ef0f82c5375362311e27cbf517995f
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2016-01-20 22:29:45 +0000
+
+    Remove RJBS release candidates and v5.7.1
+
+    As per
+    http://www.nntp.perl.org/group/perl.perl5.porters/2016/01/msg233715.h
+    tml
+
+    v5.7.1 as well as it is AWOL 
 
 -----------------------------------------
 version 2.54 at 2015-12-21 22:51:30 +0000
