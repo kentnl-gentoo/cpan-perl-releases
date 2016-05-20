@@ -1,6 +1,16 @@
 ==================================================
-Changes from 2011-05-11 00:00:00 +0000 to present.
+Changes from 2011-05-22 00:00:00 +0000 to present.
 ==================================================
+
+-----------------------------------------
+version 2.78 at 2016-05-20 21:38:09 +0000
+-----------------------------------------
+
+  Change: c3ba1f4bfde09a7a6fce199cc43fa4aff70ba9a0
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2016-05-20 22:38:09 +0000
+
+    Updated for v5.25.1 
 
 -----------------------------------------
 version 2.76 at 2016-05-09 12:00:14 +0000
@@ -1411,60 +1421,6 @@ version 0.08 at 2011-05-23 14:59:29 +0000
 
     Change the internal $data to 'our' instead of 'my' 
 
------------------------------------------
-version 0.06 at 2011-05-17 09:27:38 +0000
------------------------------------------
-
-  Change: 11c442643130ca59c71856054c9b6e9fd9902b0d
-  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date : 2011-05-17 10:27:38 +0000
-
-    Fix pod errors. 
-
-  Change: 7a0f043763f0d9a34e4914338dbef9f32fc7900d
-  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date : 2011-05-17 10:24:20 +0000
-
-    Remove big parts of the docs as I am an idiot. 
-
------------------------------------------
-version 0.04 at 2011-05-16 11:54:32 +0000
------------------------------------------
-
-  Change: 5f4f8796dcede40560deb12305a618c5eadb3866
-  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date : 2011-05-16 12:54:32 +0000
-
-    Alter the rant in the documentation and bump version 
-
------------------------------------------
-version 0.02 at 2011-05-15 15:21:36 +0000
------------------------------------------
-
-  Change: f5b7e3992ba20c74a0ebbac00cf3cf1d5c872d58
-  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date : 2011-05-15 16:21:36 +0000
-
-    Update the findlinks script 
-
-  Change: c722e6b54cdb7ddab5e6619fdb17173280ca482c
-  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date : 2011-05-15 16:19:39 +0000
-
-    Added tests 
-
-  Change: 7cb5de069731bb8349d6455f7fb0d23f04d6655d
-  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date : 2011-05-15 16:01:16 +0000
-
-    Added documentation 
-
-  Change: 98f29511f61d433a6923bf0bac063c39c918ed5d
-  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
-  Date : 2011-05-15 15:41:06 +0000
-
-    What you looking at 
-
-================
-End of releases.
-================
+================================================
+Plus 3 releases after 2011-05-22 00:00:00 +0000.
+================================================
