@@ -54,7 +54,7 @@
          "web" : "https://github.com/bingos/cpan-perl-releases"
       }
    },
-   "version" : "3.06",
+   "version" : "3.08",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0225"
 }
 
